@@ -1,4 +1,4 @@
-# Java-programming-language
+# Java
 
 Essential code for JAVA programming language: 
 
