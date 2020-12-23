@@ -3,7 +3,6 @@ public class CastingExample2 {
 
 	public static void main(String[] args) {
 		
-		
 		int i = 72; 
 		char c = (char)i; //int -> char
 		System.out.println("72 unicode: " + c);
