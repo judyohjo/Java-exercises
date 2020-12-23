@@ -6,17 +6,14 @@ public class CastingExample2 {
 		int i = 72; 
 		char c = (char)i; //int -> char
 		System.out.println("72 unicode: " + c);
-		
 	
 		double d = 4.83123;
 		int j = (int)d;
 		System.out.println(j);
-		
 	
 		int k = 1000;
 		byte b = (byte)k;
 		System.out.println(b);
-		
 
 	}
 
