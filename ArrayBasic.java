@@ -24,11 +24,7 @@ public class ArrayBasic {
 		System.out.println("배열의 4번째 데이터값: " + score[3]);
 		System.out.println("배열의 5번째 데이터값: " + score[4]);
 		
-		/*
-		 * 배열 내부에 저장된 값들을 한눈에 문자열 형태로
-		 * 확인해보려면 출력메서드 println의 매개값으로
-		 * Arrays.toString(배열변수명)을 쓰면 됩니다. 
-		 */
+		
 		System.out.println(Arrays.toString(score));
 		
 		//배열의 길이를 알아보려면 배열변수명.length 명령을 사용.
