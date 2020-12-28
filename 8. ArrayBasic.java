@@ -4,44 +4,41 @@ public class ArrayBasic {
 
 	public static void main(String[] args) {
 		
-		//1. 배열의 선언 - stack에 배열변수를 설정.
+		//1. Declaration of Arrays - using Stack
 //		int score[]; (O) // C style
-//		int score[5];(X) // 자바에서는 선언시 크기 명시 불가.
+//		int score[5];(X) // This is not allowed in Java
 		int[] score;     //JAVA Style
 		
-		//2. 배열의 생성 - Heap에 실제 데이터가 저장될 공간을 생성.
-		//배열은 생성시 크기를 명시함. 한번 설정한 크기는 변경 불가.
+		//2. Creating Arrays - using Heap
 		score = new int[5];
 		System.out.println(score);
 
-		//3. 배열의 초기화 - 배열에 값을 저장하는 과정
+		//3. Initialisation of Arrays - storing values
 		score[0] = 87;
 		score[2] = 99;
 		score[3] = score[0];
 		
-		//4. 배열의 앖 참조(사용)
-		System.out.println("배열의 3번째 데이터값: " + score[2]);
-		System.out.println("배열의 4번째 데이터값: " + score[3]);
-		System.out.println("배열의 5번째 데이터값: " + score[4]);
+		//4. Referencing values in Array
+		System.out.println("Value in Array(3): " + score[2]);
+		System.out.println("Value in Array(4): " + score[3]);
+		System.out.println("Value in Array(5):" + score[4]);
 		
 		
 		System.out.println(Arrays.toString(score));
 		
-		//배열의 길이를 알아보려면 배열변수명.length 명령을 사용.
-		System.out.println("배열의 길이: " + score.length);
+		// Use ArrayName.length to see the length of the array
+		System.out.println("Array length: " + score.length);
 		
-		//베열의 선언과 생성을 동시에 하는 방범.
+		//Method to do 'Declaration of Array' and 'Creating Array' simultaneously (1. and 2. at the same time)
 		byte[] bArr = new byte[7];
 		
-		//베열의 선언과 생성과 초기화를 동시에 하는 방법.
-		char[] letters = new char[] {'가', '나', '다', '라'};
+		//Method to do 'Initialisation of Arrays' and 'Referencing values in Array' simultaneously (3. and 4. at the same time)
+		char[] letters = new char[] {'A', 'B', 'C', 'D'};
 		System.out.println(Arrays.toString(letters));
 		
-		String[] names = {"홍길동", "신사임당", "강감찬"};
+		String[] names = {"Judy", "Emily", "Clara"};
 		System.out.println(Arrays.toString(names));
-		
-		//배열의 초기값을 설정하지 않으면 각 데이터타입의 
-		//기본값으로 자동초기화됩니다. 
+		 
 		System.out.println(Arrays.toString(bArr));
 		
 	}
