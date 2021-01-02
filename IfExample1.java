@@ -3,18 +3,17 @@ public class IfExample1 {
 
 	public static void main(String[] args) {
 		
-		//0~100까지의 정수형 난수를 발생.
 		int point = (int)(Math.random() * 101);
-		System.out.println("점수: " + point);
+		System.out.println("Score: " + point);
 		
 		if(point >= 60) {
-			System.out.println("60점 이상입니다.");
-			System.out.println("시험에 합격했습니다.");
+			System.out.println("The score is over 60.");
+			System.out.println("You passed the test.");
 		} else {
-			System.out.println("60점 미만입니다.");
-			System.out.println("시험에 불합격했습니다.");
+			System.out.println("The score is under 60.");
+			System.out.println("You didn't pass the test.");
 		}
-		System.out.println("수고하셨습니다.");
+		System.out.println("Well done.");
 
 	} // end main
 
