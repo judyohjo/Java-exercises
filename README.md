@@ -1,3 +1,5 @@
+These are exercises I practiced for Java.
+
 # Java
 
 Essential code for JAVA programming language: 
