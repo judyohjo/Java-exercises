@@ -34,17 +34,17 @@ public class BreakQuiz {
 				break;
 			}
 			if(answer == correct) {
-				System.out.println("정답입니다!!");
+				System.out.println("You got it right!");
 				okCount++;
 			} else {
-				System.out.println("틀렸는데요??");
+				System.out.println("It's incorrect");
 				noCount++;
 			}
 			
 		}
 		System.out.println("--------------------------");
-		System.out.println("정답 횟수: " + okCount + "회");
-		System.out.println("틀린 횟수: " + noCount + "회");
+		System.out.println("Number of corrects: " + okCount);
+		System.out.println("Number of incorrects: " + noCount);
 		
 		scan.close();
 	}
