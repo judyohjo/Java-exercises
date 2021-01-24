@@ -23,7 +23,7 @@ public class BreakQuiz {
 			
 			System.out.println("----------------");
 			System.out.println(rn1 + " + " + rn2 + " = ? ");
-			System.out.println("[문제를 그만 푸시려면 0을 입력하세요.");
+			System.out.println("[Input 0 to end solving the problem.");
 			System.out.print("> ");
 			
 			int correct = rn1 + rn2;
