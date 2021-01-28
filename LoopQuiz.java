@@ -8,7 +8,7 @@ public class LoopQuiz {
 		
 		while(true) {
 			System.out.println("=======================");
-			System.out.print("돈을 넣어주세요: ");
+			System.out.print("Deposit money: ");
 			int money = scan.nextInt();
 			
 			if(money == 500) {
@@ -17,7 +17,7 @@ public class LoopQuiz {
 				System.out.println("남은 음료수의 개수는 " + drink + "개입니다.");
 			} else if (money > 500) {
 				System.out.println("음료수를 받았습니다.");
-				System.out.println("거스름돈을 " + (money - 500) + "원 받았습니다.");
+				System.out.println("Chnage: " + (money - 500));
 				drink -= 1;
 				System.out.println("남은 음료수의 개수는 " + drink + "개입니다.");
 
