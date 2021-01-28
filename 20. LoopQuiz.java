@@ -27,7 +27,7 @@ public class LoopQuiz {
 
 			}
 			if(drink==0) {
-				System.out.println("음료수가 다 떨어졌습니다. 판매를 중지합니다.");
+				System.out.println("There are no more drinks available.");
 				break;
 			}
 		}
