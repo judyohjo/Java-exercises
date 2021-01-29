@@ -12,11 +12,11 @@ public class LoopQuiz {
 			int money = scan.nextInt();
 			
 			if(money == 500) {
-				System.out.println("음료수를 받았습니다.");
+				System.out.println("Drink received");
 				drink -= 1;
 				System.out.println("남은 음료수의 개수는 " + drink + "개입니다.");
 			} else if (money > 500) {
-				System.out.println("음료수를 받았습니다.");
+				System.out.println("Drink received");
 				System.out.println("Chnage: " + (money - 500));
 				drink -= 1;
 				System.out.println("남은 음료수의 개수는 " + drink + "개입니다.");
