@@ -17,7 +17,7 @@ public class LoopQuiz {
 				System.out.println("남은 음료수의 개수는 " + drink + "개입니다.");
 			} else if (money > 500) {
 				System.out.println("Drink received");
-				System.out.println("Chnage: " + (money - 500));
+				System.out.println("Change: " + (money - 500));
 				drink -= 1;
 				System.out.println("남은 음료수의 개수는 " + drink + "개입니다.");
 
