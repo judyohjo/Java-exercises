@@ -8,22 +8,22 @@ public class LoopQuiz {
 		
 		while(true) {
 			System.out.println("=======================");
-			System.out.print("Deposit money: ");
+			System.out.print("Input money: ");
 			int money = scan.nextInt();
 			
 			if(money == 500) {
 				System.out.println("Drink received");
 				drink -= 1;
-				System.out.println("남은 음료수의 개수는 " + drink + "개입니다.");
+				System.out.println("There are " + drink + "remaining drinks.");
 			} else if (money > 500) {
 				System.out.println("Drink received");
 				System.out.println("Change: " + (money - 500));
 				drink -= 1;
-				System.out.println("남은 음료수의 개수는 " + drink + "개입니다.");
+				System.out.println("There are " + drink + "remaining drinks.");
 
 			} else {
-				System.out.println("돈이 부족합니다. 최소 500원을 넣어주세요.");
-				System.out.println("남은 음료수의 개수는 " + drink + "개입니다.");
+				System.out.println("Input more money. 돈이 부족합니다. 최소 500원을 넣어주세요.");
+				System.out.println("There are " + drink + "remaining drinks.");
 
 			}
 			if(drink==0) {
