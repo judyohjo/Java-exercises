@@ -11,18 +11,18 @@ public class LoopQuiz {
 			System.out.print("Input money: ");
 			int money = scan.nextInt();
 			
-			if(money == 500) {
+			if(money == 50) {
 				System.out.println("Drink received");
 				drink -= 1;
 				System.out.println("There are " + drink + "remaining drinks.");
-			} else if (money > 500) {
+			} else if (money > 50) {
 				System.out.println("Drink received");
-				System.out.println("Change: " + (money - 500));
+				System.out.println("Change: " + (money - 50));
 				drink -= 1;
 				System.out.println("There are " + drink + "remaining drinks.");
 
 			} else {
-				System.out.println("Input more money. 돈이 부족합니다. 최소 500원을 넣어주세요.");
+				System.out.println("Input more money. Input at least 50 cents.");
 				System.out.println("There are " + drink + "remaining drinks.");
 
 			}
