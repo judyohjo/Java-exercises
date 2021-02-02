@@ -3,9 +3,9 @@ public class CalMain {
 
 	public static void main(String[] args) {
 		
-		//1번 계산기 생성. 
+		//Creating Calculator 1. 
 		Calculator c1 = new Calculator();
-		//2번 계산기 생성.
+		//Creating Calculator 2.
 		Calculator c2 = new Calculator();
 		Calculator c3 = new Calculator();
 		Calculator c4 = new Calculator();
@@ -19,9 +19,9 @@ public class CalMain {
 		c3.add(15);
 		
 		
-		System.out.println("1번 계산기 결과값:" + c1.result);
-		System.out.println("2번 계산기 결과값:" + c2.result);
-		System.out.println("2번 계산기 결과값:" + c3.result);
+		System.out.println("Results for Calculator 1:" + c1.result);
+		System.out.println("Results for Calculator 2:" + c2.result);
+		System.out.println("Results for Calculator 2:" + c3.result);
 
 	}
 
