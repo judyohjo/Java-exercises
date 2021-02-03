@@ -16,7 +16,7 @@ public class Account {
 	int password;
 	int balance;
 	
-	//생성자 선언
+	//creating a class, Account
 	Account(String aName, int pw, int bal) {
 		name = aName;
 		password = pw;
