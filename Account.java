@@ -23,17 +23,17 @@ public class Account {
 		balance = bal;
 	}
 	
-	//입금 기능
+	//deposit function
 	void deposit(int money) {
 		balance += money;
 	}
 	
-	//출금 기능
+	//withdrawl function
 	void withDrawMoney(int money) {
 		balance -= money; //balance = balance - money
 	}
 	
-	//잔액 조회 기능
+	//search balance
 	int getBalance() {
 		return balance;
 	}
