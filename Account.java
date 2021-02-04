@@ -11,7 +11,6 @@ public class Account {
 	 * 3가지를 선언하세요.
 	 */
 	
-	//객체의 속성(멤버변수)
 	String name;
 	int password;
 	int balance;
