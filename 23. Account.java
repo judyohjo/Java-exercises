@@ -10,7 +10,8 @@ public class Account {
 	 * (withDraw : void), 잔액 조회기능 메서드 (getBalance : int) 
 	 * 3가지를 선언하세요.
 	 */
-	
+
+	// Setting class parameters
 	String name;
 	int password;
 	int balance;
