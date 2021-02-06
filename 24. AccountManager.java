@@ -7,17 +7,17 @@ public class AccountManager {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("계좌를 등록합니다.");
-		System.out.print("이름: ");
+		System.out.print("Name: ");
 		String name = scan.next();
-		System.out.print("비밀번호: ");
+		System.out.print("Password: ");
 		int passwd = scan.nextInt();
-		System.out.print("입금액: ");
+		System.out.print("Amount for deposit: ");
 		int balance = scan.nextInt();
 		
 		Account acc = new Account(name, passwd, balance);
 		
 		while(true) {
-			System.out.println("\n메뉴를 입력하세요.");
+			System.out.println("\nWhat do you want to do?");
 			System.out.println("1. 예금 | 2. 출금 | 3. 잔액조회 | 4. 종료");
 			System.out.print("> ");
 			int menu = scan.nextInt();
