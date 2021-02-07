@@ -35,7 +35,7 @@ public class AccountManager {
 					acc.deposit(money);
 					System.out.println(money + "원 입금이 완료되었습니다.");
 				} else {
-					System.out.println("비밀번호가 틀렸습니다.");
+					System.out.println("The password is wrong.");
 				}
 			} else if(menu==2) {
 				System.out.print("> ");
@@ -45,14 +45,14 @@ public class AccountManager {
 					System.out.print("> ");
 					int money = scan.nextInt();
 					if(money > acc.balance) {
-						System.out.println("잔액이 부족합니다.");
+						System.out.println("You don't have enough balance.");
 					} else {
 						//???? (출금기능 메서드 호출)
 						acc.withDrawMoney(money);
 						System.out.println(money + "원 출금 완료했습니다.");
 					}
 				} else {
-					System.out.println("비밀번호가 틀렸습니다.");
+					System.out.println("The password is wrong.");
 				}
 			} else if(menu==3) {
 				System.out.println("계좌 비밀번호를 입력하세요.");
@@ -61,7 +61,7 @@ public class AccountManager {
 				if(pw == acc.password) {
 					int bal = acc.getBalance();
 					
-					System.out.println(acc.name + "남은 잔액은 " + bal + "원 입니다.");
+					System.out.println("The account for" + acc.name + ", has $"  + bal);
 				} 
 			} else {
 				break;
