@@ -6,7 +6,7 @@ public class AccountManager {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("계좌를 등록합니다.");
+		System.out.println("Make an account.");
 		System.out.print("Name: ");
 		String name = scan.next();
 		System.out.print("Password: ");
@@ -18,7 +18,7 @@ public class AccountManager {
 		
 		while(true) {
 			System.out.println("\nWhat do you want to do?");
-			System.out.println("1. 예금 | 2. 출금 | 3. 잔액조회 | 4. 종료");
+			System.out.println("1. Deposit | 2. Withdrawl | 3. Search balance | 4. End");
 			System.out.print("> ");
 			int menu = scan.nextInt();
 			
