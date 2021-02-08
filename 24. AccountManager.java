@@ -41,13 +41,13 @@ public class AccountManager {
 				System.out.print("> ");
 				int pw = scan.nextInt();
 				if(pw == acc.password) {
-					System.out.println("출금액을 입력하세요.");
+					System.out.println("Type how much you want to withdrawl.");
 					System.out.print("> ");
 					int money = scan.nextInt();
 					if(money > acc.balance) {
 						System.out.println("You don't have enough balance.");
 					} else {
-						//???? (출금기능 메서드 호출)
+						//???? (calling withdrawl method)
 						acc.withDrawMoney(money);
 						System.out.println(money + "원 출금 완료했습니다.");
 					}
@@ -55,7 +55,7 @@ public class AccountManager {
 					System.out.println("The password is wrong.");
 				}
 			} else if(menu==3) {
-				System.out.println("계좌 비밀번호를 입력하세요.");
+				System.out.println("Type your password.");
 				System.out.print("> ");
 				int pw = scan.nextInt();
 				if(pw == acc.password) {
