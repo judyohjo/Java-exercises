@@ -23,15 +23,15 @@ public class AccountManager {
 			int menu = scan.nextInt();
 			
 			if(menu==1) {
-				System.out.println("계좌 비밀번호를 입력하세요.");
+				System.out.println("Type your password.");
 				System.out.print("> ");
 				int pw = scan.nextInt();
 				
 				if(pw == acc.password) {
-					System.out.println("입금액을 입력하세요.");
+					System.out.println("Type how much you want to deposit.");
 					System.out.print("> ");
 					int money = scan.nextInt();
-					//???? (입금기능 메서드 호출)
+					//???? (calling deposit method)
 					acc.deposit(money);
 					System.out.println(money + "원 입금이 완료되었습니다.");
 				} else {
