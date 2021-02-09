@@ -33,7 +33,7 @@ public class AccountManager {
 					int money = scan.nextInt();
 					//???? (calling deposit method)
 					acc.deposit(money);
-					System.out.println(money + "원 입금이 완료되었습니다.");
+					System.out.println("You have deposited $" + money);
 				} else {
 					System.out.println("The password is wrong.");
 				}
