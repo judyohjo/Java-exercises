@@ -49,7 +49,7 @@ public class AccountManager {
 					} else {
 						//???? (calling withdrawl method)
 						acc.withDrawMoney(money);
-						System.out.println(money + "원 출금 완료했습니다.");
+						System.out.println("You have withdrawled $" + money);
 					}
 				} else {
 					System.out.println("The password is wrong.");
