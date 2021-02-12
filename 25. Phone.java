@@ -20,8 +20,8 @@ public class Phone {
 	//그리고 반환유형은 적지 않습니다.
 	Phone() {
 //		System.out.println("생성자가 호출됨!");
-		color = "회색";
-		model = "애니콜";
+		color = "Grey";
+		model = "Samsung";
 		price = 500000;
 	}
 	
@@ -44,13 +44,13 @@ public class Phone {
 	 */
 	Phone(String pColor) {
 		color = pColor;
-		model = "카이";
+		model = "Galaxy S21";
 		price = 250000;
 	}
 	
 	//Calling the Method
 	void info() {
-		System.out.println("========핸드폰의 정보========");
+		System.out.println("======== Information about the phone ========");
 		System.out.println("색상: " + color);
 		System.out.println("모델명: " + model);
 		System.out.println("가격: " + price + "원");
