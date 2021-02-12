@@ -48,7 +48,7 @@ public class Phone {
 		price = 250000;
 	}
 	
-	//메서드 선언.
+	//Calling the Method
 	void info() {
 		System.out.println("========핸드폰의 정보========");
 		System.out.println("색상: " + color);
