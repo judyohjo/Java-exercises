@@ -51,9 +51,9 @@ public class Phone {
 	//Calling the Method
 	void info() {
 		System.out.println("======== Information about the phone ========");
-		System.out.println("색상: " + color);
-		System.out.println("모델명: " + model);
-		System.out.println("가격: " + price + "원");
+		System.out.println("Colour: " + color);
+		System.out.println("Model: " + model);
+		System.out.println("Price: $" + price);
 		System.out.println("========================");
 	}
 }
