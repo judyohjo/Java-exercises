@@ -37,11 +37,7 @@ public class Phone {
 		price = pPrice;
 	}
 	
-	/*
-	 * 생성자 오버로딩:
-	 * 1. 생성자는 중복해서 여러 개 선언할 수 있습니다.
-	 * 2. 단, 매개변수의 종류나 개수가 달라야합니다.
-	 */
+	
 	Phone(String pColor) {
 		color = pColor;
 		model = "Galaxy S21";
