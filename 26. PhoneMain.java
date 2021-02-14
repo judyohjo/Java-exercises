@@ -7,7 +7,7 @@ public class PhoneMain {
 		Phone basic = new Phone();
 		basic.info();
 		
-		Phone bluePhone = new Phone("사파이어");
+		Phone bluePhone = new Phone("Saphire");
 		bluePhone.info();
 		
 		Phone galaxyS9 = new Phone("Cobalt blue", "GalaxyS9");
@@ -16,8 +16,8 @@ public class PhoneMain {
 		//3가지의 멤버변수를 초기화하는 생성자를 선언하시고 
 		//main메서드 내부에서 해당 객체를 만들어 info를 출력하세요.
 		//객체 변수 이름은 shaomi.
-		Phone shaomi = new Phone("Yellow", "Samsung", 200000);
-		shaomi.info();
+		Phone samsung = new Phone("Yellow", "Samsung", 200000);
+		samsung.info();
 
 	}
 
