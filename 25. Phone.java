@@ -1,7 +1,7 @@
 
 public class Phone {
 
-	//멤버변수 선언
+	//Variables
 	String color;
 	String model;
 	int price;
