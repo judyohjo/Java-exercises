@@ -11,13 +11,8 @@ public class Phone {
 		
 	}
 	
-	/*
-	 * 생성자: 생성자는 객체가 생성될때 실행해야할 로직을 
-	 * 작성할 수 있습니다. 생성자는 선언해야만 호출할 수 있으며
-	 * 생성자를 하나도 선언하지 않을 경우 자동으로 기본생성자가 선언됩니다.
-	 */
 	Phone() {
-//		System.out.println("생성자가 호출됨!");
+//		System.out.println("Calling the constructor!");
 		color = "Grey";
 		model = "Samsung";
 		price = 500000;
