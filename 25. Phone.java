@@ -2,7 +2,7 @@
 public class Phone {
 
 	//Variables
-	String color;
+	String colour;
 	String model;
 	int price;
 	
@@ -13,26 +13,26 @@ public class Phone {
 	
 	Phone() {
 //		System.out.println("Calling the constructor!");
-		color = "Grey";
+		colour = "Grey";
 		model = "Samsung";
 		price = 500000;
 	}
 	
-	Phone(String pColor, String pModel) {
-		color = pColor;
+	Phone(String pColour, String pModel) {
+		colour = pColour;
 		model = pModel;
 		price = 900000;
 	}
 	
-	Phone(String pColor, String pModel, int pPrice) {
-		color = pColor;
+	Phone(String pColour, String pModel, int pPrice) {
+		colour = pColour;
 		model = pModel;
 		price = pPrice;
 	}
 	
 	
-	Phone(String pColor) {
-		color = pColor;
+	Phone(String pColour) {
+		colour = pColour;
 		model = "Galaxy S21";
 		price = 250000;
 	}
@@ -40,7 +40,7 @@ public class Phone {
 	//Calling the Method
 	void info() {
 		System.out.println("======== Information about the phone ========");
-		System.out.println("Colour: " + color);
+		System.out.println("Colour: " + colour);
 		System.out.println("Model: " + model);
 		System.out.println("Price: $" + price);
 		System.out.println("========================");
