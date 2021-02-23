@@ -8,10 +8,10 @@ public class Pen {
 	
 	//객체의 기능을 나타내는 것을 메서드(멤버 함수)라고 부릅니다.
 	void write() {
-		System.out.println(color + "색 글을 씁니다.");
+		System.out.println(color);
 	}
 	void info() {
-		System.out.println("---------Pen's Info---------");
+		System.out.println("--------- Pen's Info ---------");
 		System.out.println("색상: " + color);
 		System.out.println("가격: " + price);
 	}
