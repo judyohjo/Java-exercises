@@ -12,8 +12,8 @@ public class Pen {
 	}
 	void info() {
 		System.out.println("--------- Pen's Info ---------");
-		System.out.println("색상: " + color);
-		System.out.println("가격: " + price);
+		System.out.println("Colour: " + color);
+		System.out.println("Price: " + price);
 	}
 
 }
