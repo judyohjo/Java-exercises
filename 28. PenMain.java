@@ -9,15 +9,15 @@ public class PenMain {
 		
 		//객체의 기능과 속성을 사용하기 위해서는 
 		//참조 연산자(.)를 사용합니다.
-		blackPen.color = "검정";
-		blackPen.price = 500;
+		blackPen.color = "Black";
+		blackPen.price = 1;
 		
 		blackPen.write();
 		blackPen.info();
 		
 		Pen redPen = new Pen();
-		redPen.color = "빨강";
-		redPen.price = 600;
+		redPen.color = "Red";
+		redPen.price = 2;
 		
 		redPen.write();
 		blackPen.write();
@@ -29,7 +29,7 @@ public class PenMain {
 		//bluePen객체를 생성하여 write()를 호출하여
 		//"파랑색 글을 씁니다."를 출력하세요.
 		Pen bluePen = new Pen();
-		bluePen.color = "파랑";
+		bluePen.color = "Blue";
 		bluePen.write();
 	}
 
