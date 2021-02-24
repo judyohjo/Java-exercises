@@ -13,7 +13,7 @@ public class PhoneMain {
 		galaxyS9.info();
 		
 		//Object variable = Apple
-		Phone samsung = new Phone("Purple", "Apple", 200000);
+		Phone samsung = new Phone("Purple", "Apple", 2000);
 		samsung.info();
 
 	}
