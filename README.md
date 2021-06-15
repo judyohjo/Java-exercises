@@ -11,5 +11,6 @@ Essential code for JAVA programming language:
 # Contents
 Java exercise 
 - Basic exercises
+- Arrays and ArrayList
 - Classes
 
