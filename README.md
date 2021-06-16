@@ -13,4 +13,5 @@ Java exercise
 - Basic exercises
 - Arrays and ArrayList
 - Classes
+- Object designs and patterns
 
