@@ -14,4 +14,5 @@ Java exercise
 - Arrays and ArrayList
 - Classes
 - Object designs and patterns
+- GUI?
 
