@@ -10,8 +10,9 @@ Essential code for JAVA programming language:
 
 # Contents
 Java exercise 
-- Basic exercises
+- Basic exercises (including input -> Scanner)
 - Arrays and ArrayList
 - Classes and nested classes
 - Object designs and patterns
+- 
 
