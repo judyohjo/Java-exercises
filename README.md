@@ -12,7 +12,6 @@ Essential code for JAVA programming language:
 Java exercise 
 - Basic exercises
 - Arrays and ArrayList
-- Classes
+- Classes and nested classes
 - Object designs and patterns
-- GUI?
 
