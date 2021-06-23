@@ -14,5 +14,5 @@ Java exercise
 - Arrays and ArrayList
 - Classes and nested classes
 - Object designs and patterns
-- Java Swing
+- Java Swing and GUI
 
