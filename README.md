@@ -16,3 +16,5 @@ Java exercise
 - Object designs and patterns
 - Java Swing and GUI
 
+# Java Object designs/pattern
+- Composite
