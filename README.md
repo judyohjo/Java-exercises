@@ -18,3 +18,4 @@ Java exercise
 
 # Java Object designs/pattern
 - Composite
+- Singleton
