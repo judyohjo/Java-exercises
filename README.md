@@ -17,5 +17,6 @@ Java exercise
 - Java Swing and GUI
 
 # Java Object designs/pattern
-- Composite
-- Singleton
+- Composite pattern
+- Singleton pattern
+- Adapter pattern
