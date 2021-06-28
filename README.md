@@ -20,3 +20,4 @@ Java exercise
 - Composite pattern
 - Singleton pattern
 - Adapter pattern
+- Observer pattern
