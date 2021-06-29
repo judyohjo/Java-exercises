@@ -21,3 +21,4 @@ Java exercise
 - Singleton pattern
 - Adapter pattern
 - Observer pattern
+- Factory pattern
