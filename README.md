@@ -8,13 +8,15 @@ Essential code for JAVA programming language:
       }
     }
 
+
 # Contents
-Java exercise 
+- Java exercise 
 - Basic exercises (including input -> Scanner)
 - Arrays and ArrayList
 - Classes and nested classes
 - Object designs and patterns
 - Java Swing and GUI
+
 
 # Java Object designs/pattern
 - Composite pattern
