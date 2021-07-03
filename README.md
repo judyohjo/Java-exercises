@@ -14,11 +14,11 @@ Essential code for JAVA programming language:
 - Basic exercises (including input -> Scanner)
 - Arrays and ArrayList
 - Classes and nested classes
-- Object designs and patterns
+- Java Object designs/patterns
 - Java Swing and GUI
 
 
-# Java Object designs/pattern
+# Java Object designs/patterns
 - Composite pattern
 - Singleton pattern
 - Adapter pattern
