@@ -6,6 +6,7 @@
 - Java Object designs/patterns
 - Java Swing and GUI 
 
+# Inheritance design
 - Generalisation
 - Inheritance
 
