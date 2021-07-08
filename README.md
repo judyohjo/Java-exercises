@@ -6,9 +6,12 @@
 - Java Object designs/patterns
 - Java Swing and GUI 
 
-# Inheritance design
+# Design
 - Generalisation
 - Inheritance
+- Composition
+- Association
+- Dependency
 
 # Java Object designs/patterns
 - Composite pattern
