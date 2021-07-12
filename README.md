@@ -10,7 +10,7 @@
 - Generalisation
 - Inheritance
 - Composition
-- Association: Simple Association
+- Association & Simple Association
 - Dependency
 
 # Java Object designs/patterns
