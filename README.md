@@ -11,7 +11,7 @@
 - Inheritance
 - Composition
 - Association & Simple Association
-- Dependency
+- Dependency & independent
 
 # Java Object designs/patterns
 - Composite pattern
