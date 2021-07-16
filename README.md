@@ -6,6 +6,8 @@
 - Java Object designs/patterns
 - Java Swing and GUI 
 - Trees and Tables
+  - DefaultTree
+  - DefaultTable
 
 # Java Design
 - Generalisation
