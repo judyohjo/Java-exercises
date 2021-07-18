@@ -21,5 +21,6 @@
 - Singleton pattern
 - Adapter pattern
 - Observer pattern
+  - Observable
 - Factory pattern
 - MVC pattern
