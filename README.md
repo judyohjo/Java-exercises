@@ -23,4 +23,5 @@
 - Observer pattern
   - Observable
 - Factory pattern
+- Comparable
 - MVC pattern
