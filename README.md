@@ -5,6 +5,7 @@
 - Classes and Nested Classes
 - Java Object designs/patterns
 - Java Swing and GUI 
+- Event handling
 - Trees and Tables
   - DefaultTree
   - DefaultTable
