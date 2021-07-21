@@ -7,8 +7,7 @@
 - Java Swing and GUI 
 - Event handling
 - Trees and Tables
-  - DefaultTree
-  - DefaultTable
+  - ListModel and TableModel
 
 # Java Design
 - Generalisation
