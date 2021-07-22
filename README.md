@@ -8,6 +8,7 @@
 - Event handling
 - Trees and Tables
   - ListModel and TableModel
+  - TreeModel
 
 # Java Design
 - Generalisation
