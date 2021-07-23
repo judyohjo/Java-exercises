@@ -8,7 +8,7 @@
 - Event handling
 - Trees and Tables
   - ListModel and TableModel
-  - TreeModel
+  - TreeModel 
 
 # Java Design
 - Generalisation
@@ -25,4 +25,5 @@
   - Observable
 - Factory pattern
 - Comparable
+  - comparedTo
 - MVC pattern
