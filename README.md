@@ -25,5 +25,5 @@
   - Observable
 - Factory pattern
 - Comparable
-  - comparedTo
+  - comparedTo() method
 - MVC pattern
