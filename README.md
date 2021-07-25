@@ -24,6 +24,6 @@
 - Observer pattern
   - Observable
 - Factory pattern
-- Comparable
+- Comparable/Comparator
   - comparedTo() method
 - MVC pattern
