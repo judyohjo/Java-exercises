@@ -13,6 +13,7 @@
 # Java Design
 - Generalisation
 - Inheritance
+  - 'as-is' relationship
 - Composition
 - Association & Simple Association
 - Dependency & Independent
