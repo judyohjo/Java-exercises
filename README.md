@@ -9,6 +9,7 @@
 - Trees and Tables
   - ListModel and TableModel
   - TreeModel 
+- Lab exercises
 
 # Java Design
 - Generalisation
