@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q1 {
+public class VolumeOfCone {
    public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
       System.out.println("Enter a radius: ");
