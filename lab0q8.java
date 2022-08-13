@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab00Q8 {
+public class InchesToCentimetres {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter inches: ");
