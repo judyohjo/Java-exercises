@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 import java.lang.*;
-public class Lab01 {
+public class NumberOfLetters {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a sentence: ");
