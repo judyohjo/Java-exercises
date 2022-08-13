@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab00Q6 {
+public class FootAndInches {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a number of inches: ");
