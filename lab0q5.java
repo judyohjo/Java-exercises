@@ -13,5 +13,5 @@ public class Ohm {
       System.out.printf("The current flowing through is: %.2f.", d);
       
       
-   } // end main
-} // end class
+   } 
+} 
