@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfN {
+public class SumOfPositiveNumbers {
    public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
       System.out.println("Enter a positive integer: ");
@@ -11,5 +11,5 @@ public class SumOfN {
       System.out.printf("The sum of the first %d positive integers is %.0f.", num, sum);
       
       
-   } // end main
-} // end class
+   } 
+} 
