@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab00 {
+public class SquareRoot {
    public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
        System.out.println("Enter an integer: ");
