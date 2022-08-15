@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab00 {
+public class SquaredCubeNumber {
   public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
       System.out.println("Enter the first integer: ");
