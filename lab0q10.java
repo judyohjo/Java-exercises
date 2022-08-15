@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab00Pizza {
+public class SplitPizzaPayment {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("How many people in the group? ");
