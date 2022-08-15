@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab0011 {
+public class CompoundInterest {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.println("Enter principle: ");
